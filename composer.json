@@ -1,0 +1,17 @@
+{
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Daan Seegers",
+      "email": "d.seegers.mail@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Flx\\Toolbox\\": "src"
+    }
+  },
+  "require": {
+    "php-di/php-di": "^6.0"
+  }
+}
