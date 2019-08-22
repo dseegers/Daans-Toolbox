@@ -6,4 +6,23 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Mundschenk\\Data_Storage\\Abstract_Cache' => $vendorDir . '/mundschenk-at/wp-data-storage/src/class-abstract-cache.php',
+    'Mundschenk\\Data_Storage\\Cache' => $vendorDir . '/mundschenk-at/wp-data-storage/src/class-cache.php',
+    'Mundschenk\\Data_Storage\\Network_Options' => $vendorDir . '/mundschenk-at/wp-data-storage/src/class-network-options.php',
+    'Mundschenk\\Data_Storage\\Options' => $vendorDir . '/mundschenk-at/wp-data-storage/src/class-options.php',
+    'Mundschenk\\Data_Storage\\Site_Transients' => $vendorDir . '/mundschenk-at/wp-data-storage/src/class-site-transients.php',
+    'Mundschenk\\Data_Storage\\Transients' => $vendorDir . '/mundschenk-at/wp-data-storage/src/class-transients.php',
+    'Mundschenk\\UI\\Abstract_Control' => $vendorDir . '/mundschenk-at/wp-settings-ui/src/ui/class-abstract-control.php',
+    'Mundschenk\\UI\\Control' => $vendorDir . '/mundschenk-at/wp-settings-ui/src/ui/class-control.php',
+    'Mundschenk\\UI\\Control_Factory' => $vendorDir . '/mundschenk-at/wp-settings-ui/src/ui/class-control-factory.php',
+    'Mundschenk\\UI\\Controls\\Checkbox_Input' => $vendorDir . '/mundschenk-at/wp-settings-ui/src/ui/controls/class-checkbox-input.php',
+    'Mundschenk\\UI\\Controls\\Display_Text' => $vendorDir . '/mundschenk-at/wp-settings-ui/src/ui/controls/class-display-text.php',
+    'Mundschenk\\UI\\Controls\\Hidden_Input' => $vendorDir . '/mundschenk-at/wp-settings-ui/src/ui/controls/class-hidden-input.php',
+    'Mundschenk\\UI\\Controls\\Input' => $vendorDir . '/mundschenk-at/wp-settings-ui/src/ui/controls/class-input.php',
+    'Mundschenk\\UI\\Controls\\Number_Input' => $vendorDir . '/mundschenk-at/wp-settings-ui/src/ui/controls/class-number-input.php',
+    'Mundschenk\\UI\\Controls\\Select' => $vendorDir . '/mundschenk-at/wp-settings-ui/src/ui/controls/class-select.php',
+    'Mundschenk\\UI\\Controls\\Submit_Input' => $vendorDir . '/mundschenk-at/wp-settings-ui/src/ui/controls/class-submit-input.php',
+    'Mundschenk\\UI\\Controls\\Text_Input' => $vendorDir . '/mundschenk-at/wp-settings-ui/src/ui/controls/class-text-input.php',
+    'Mundschenk\\UI\\Controls\\Textarea' => $vendorDir . '/mundschenk-at/wp-settings-ui/src/ui/controls/class-textarea.php',
+    'WeDevs_Settings_API' => $vendorDir . '/tareq1988/wordpress-settings-api-class/src/class.settings-api.php',
 );

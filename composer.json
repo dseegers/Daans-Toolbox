@@ -12,6 +12,8 @@
     }
   },
   "require": {
-    "php-di/php-di": "^6.0"
+    "php-di/php-di": "^6.0",
+    "mundschenk-at/wp-settings-ui": "^1.1",
+    "tareq1988/wordpress-settings-api-class": "^1.2"
   }
 }

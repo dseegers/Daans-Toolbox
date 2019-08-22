@@ -77,11 +77,34 @@ class ComposerStaticInit5a5a69eae0dabd7499c918dee62dd432
         ),
     );
 
+    public static $classMap = array (
+        'Mundschenk\\Data_Storage\\Abstract_Cache' => __DIR__ . '/..' . '/mundschenk-at/wp-data-storage/src/class-abstract-cache.php',
+        'Mundschenk\\Data_Storage\\Cache' => __DIR__ . '/..' . '/mundschenk-at/wp-data-storage/src/class-cache.php',
+        'Mundschenk\\Data_Storage\\Network_Options' => __DIR__ . '/..' . '/mundschenk-at/wp-data-storage/src/class-network-options.php',
+        'Mundschenk\\Data_Storage\\Options' => __DIR__ . '/..' . '/mundschenk-at/wp-data-storage/src/class-options.php',
+        'Mundschenk\\Data_Storage\\Site_Transients' => __DIR__ . '/..' . '/mundschenk-at/wp-data-storage/src/class-site-transients.php',
+        'Mundschenk\\Data_Storage\\Transients' => __DIR__ . '/..' . '/mundschenk-at/wp-data-storage/src/class-transients.php',
+        'Mundschenk\\UI\\Abstract_Control' => __DIR__ . '/..' . '/mundschenk-at/wp-settings-ui/src/ui/class-abstract-control.php',
+        'Mundschenk\\UI\\Control' => __DIR__ . '/..' . '/mundschenk-at/wp-settings-ui/src/ui/class-control.php',
+        'Mundschenk\\UI\\Control_Factory' => __DIR__ . '/..' . '/mundschenk-at/wp-settings-ui/src/ui/class-control-factory.php',
+        'Mundschenk\\UI\\Controls\\Checkbox_Input' => __DIR__ . '/..' . '/mundschenk-at/wp-settings-ui/src/ui/controls/class-checkbox-input.php',
+        'Mundschenk\\UI\\Controls\\Display_Text' => __DIR__ . '/..' . '/mundschenk-at/wp-settings-ui/src/ui/controls/class-display-text.php',
+        'Mundschenk\\UI\\Controls\\Hidden_Input' => __DIR__ . '/..' . '/mundschenk-at/wp-settings-ui/src/ui/controls/class-hidden-input.php',
+        'Mundschenk\\UI\\Controls\\Input' => __DIR__ . '/..' . '/mundschenk-at/wp-settings-ui/src/ui/controls/class-input.php',
+        'Mundschenk\\UI\\Controls\\Number_Input' => __DIR__ . '/..' . '/mundschenk-at/wp-settings-ui/src/ui/controls/class-number-input.php',
+        'Mundschenk\\UI\\Controls\\Select' => __DIR__ . '/..' . '/mundschenk-at/wp-settings-ui/src/ui/controls/class-select.php',
+        'Mundschenk\\UI\\Controls\\Submit_Input' => __DIR__ . '/..' . '/mundschenk-at/wp-settings-ui/src/ui/controls/class-submit-input.php',
+        'Mundschenk\\UI\\Controls\\Text_Input' => __DIR__ . '/..' . '/mundschenk-at/wp-settings-ui/src/ui/controls/class-text-input.php',
+        'Mundschenk\\UI\\Controls\\Textarea' => __DIR__ . '/..' . '/mundschenk-at/wp-settings-ui/src/ui/controls/class-textarea.php',
+        'WeDevs_Settings_API' => __DIR__ . '/..' . '/tareq1988/wordpress-settings-api-class/src/class.settings-api.php',
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit5a5a69eae0dabd7499c918dee62dd432::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit5a5a69eae0dabd7499c918dee62dd432::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit5a5a69eae0dabd7499c918dee62dd432::$classMap;
 
         }, null, ClassLoader::class);
     }

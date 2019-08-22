@@ -60,6 +60,106 @@
         ]
     },
     {
+        "name": "mundschenk-at/wp-data-storage",
+        "version": "v1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mundschenk-at/wp-data-storage.git",
+            "reference": "6dc5c7e9ed37c0d0f2f0885e4fed23ebe3dbddce"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mundschenk-at/wp-data-storage/zipball/6dc5c7e9ed37c0d0f2f0885e4fed23ebe3dbddce",
+            "reference": "6dc5c7e9ed37c0d0f2f0885e4fed23ebe3dbddce",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6.0"
+        },
+        "require-dev": {
+            "brain/monkey": "^2.2",
+            "dealerdirect/phpcodesniffer-composer-installer": "^0.4",
+            "mikey179/vfsstream": "~1",
+            "phpunit/phpunit": "5.*|6.*|7.*",
+            "squizlabs/php_codesniffer": "^3.3",
+            "wimg/php-compatibility": "^8.0",
+            "wp-coding-standards/wpcs": "^1.1"
+        },
+        "time": "2018-10-07T17:03:46+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Peter Putzer",
+                "role": "Developer",
+                "email": "github@mundschenk.at",
+                "homepage": "https://code.mundschenk.at"
+            }
+        ],
+        "description": "An object oriented library for dealing with WordPress options and caching."
+    },
+    {
+        "name": "mundschenk-at/wp-settings-ui",
+        "version": "v1.1.1",
+        "version_normalized": "1.1.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mundschenk-at/wp-settings-ui.git",
+            "reference": "f418247e31f112c806ca353a99d7f709b8ba6f9f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mundschenk-at/wp-settings-ui/zipball/f418247e31f112c806ca353a99d7f709b8ba6f9f",
+            "reference": "f418247e31f112c806ca353a99d7f709b8ba6f9f",
+            "shasum": ""
+        },
+        "require": {
+            "mundschenk-at/wp-data-storage": "^1.0",
+            "php": ">=5.6.0"
+        },
+        "require-dev": {
+            "brain/monkey": "^2.0@dev",
+            "dealerdirect/phpcodesniffer-composer-installer": "^0.5",
+            "mikey179/vfsstream": "~1",
+            "phpcompatibility/phpcompatibility-wp": "^2.0",
+            "phpunit/phpunit": "5.*||6.*||7.*",
+            "roave/security-advisories": "dev-master",
+            "squizlabs/php_codesniffer": "dev-master",
+            "wp-coding-standards/wpcs": "^2.0"
+        },
+        "time": "2019-02-10T22:37:44+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Peter Putzer",
+                "role": "Developer",
+                "email": "github@mundschenk.at",
+                "homepage": "https://code.mundschenk.at"
+            }
+        ],
+        "description": "An object oriented interface to the WordPress Settings API"
+    },
+    {
         "name": "nikic/php-parser",
         "version": "v4.2.3",
         "version_normalized": "4.2.3.0",
@@ -422,6 +522,52 @@
             "compatibility",
             "polyfill",
             "shim"
+        ]
+    },
+    {
+        "name": "tareq1988/wordpress-settings-api-class",
+        "version": "v1.2",
+        "version_normalized": "1.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/tareq1988/wordpress-settings-api-class.git",
+            "reference": "ecb2778e17ef5d871f2d13697406d5efed9068ac"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/tareq1988/wordpress-settings-api-class/zipball/ecb2778e17ef5d871f2d13697406d5efed9068ac",
+            "reference": "ecb2778e17ef5d871f2d13697406d5efed9068ac",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.4"
+        },
+        "time": "2015-10-18T08:33:32+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPLv2"
+        ],
+        "authors": [
+            {
+                "name": "Tareq Hasan",
+                "role": "Developer",
+                "email": "tareq@wedevs.com",
+                "homepage": "http://tareq.wedevs.com"
+            }
+        ],
+        "description": "WordPress settings API Abstraction Class",
+        "homepage": "https://github.com/tareq1988/wordpress-settings-api-class",
+        "keywords": [
+            "settings-api",
+            "wordpress",
+            "wp"
         ]
     }
 ]
